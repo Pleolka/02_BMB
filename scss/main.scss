@@ -1,0 +1,66 @@
+// Utils
+@import "utils/_variable.scss";
+@import "utils/_mixin.scss";
+/*
+    variables
+    mixins
+    functions
+    placeholders
+*/
+
+// Vendors
+@import "vendors/breakpoint-sass/_breakpoint.scss";
+@import "vendors/plumber-sass/_plumber.scss";
+
+/*
+    bootstrap
+*/
+
+// Vendors extensions
+@import "vendor_extensions/_bootstrap_ext.scss";
+@import "vendor_extensions/_breakpoint_ext.scss";
+@import "vendor_extensions/_plumber_ext.scss";
+
+// Base
+@import "base/_szablon.scss";
+/*
+    base
+    normalize
+    typography
+*/
+
+// Layouts
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_navbar.scss";
+/*
+    grid
+    header
+    navigation
+*/
+
+// Components
+@import "components/_buttons.scss";
+@import "components/_baner.scss";
+/*
+    buttons
+    panels
+    slideshow
+*/
+
+//Pages
+@import "pages/_onas.scss";
+@import "pages/_produkty.scss";
+@import "pages/_contact.scss";
+@import "pages/_oferta.scss";
+@import "pages/_zamowienia.scss";
+/*
+    home
+    contact...
+*/
+
+//Themes
+/*
+    defoult-theme
+    light-theme
+*/

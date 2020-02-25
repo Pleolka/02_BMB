@@ -1,0 +1,43 @@
+﻿nav {
+    background-color: $color-base;
+
+    div {
+        height: 50px;
+
+        ul.nav.navbar-nav {
+            a.nav-link {
+                font-weight: 700;
+                font-size: calc(#{$font-size} * 1.1);
+                color: white;
+                //text-transform: uppercase;
+                transition: color 250ms ease-in-out,
+                    transform 150ms ease;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $color-primary !important;
+                }
+            }
+
+            a.nav-link.active {
+                font-weight: 700;
+                color: $color-primary;
+            }
+        }
+    }
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.logo {
+    img {
+        height: 180px;
+        margin-top: 0;
+        margin-bottom: -130px;
+        padding: 0;
+    }
+}

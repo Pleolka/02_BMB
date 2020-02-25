@@ -1,0 +1,49 @@
+﻿.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 2rem 0 0 0;
+    text-decoration: none;
+    background-color: white;
+    color: $color-primary;
+    font-size: $font-size;
+    font-family: $font-main;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    transition: all 250ms ease-in-out, transform 300ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: all 250ms ease-in-out, transform 300ms ease;
+    -moz-transition: all 250ms ease-in-out, transform 300ms ease;
+    -ms-transition: all 250ms ease-in-out, transform 300ms ease;
+    -o-transition: all 250ms ease-in-out, transform 300ms ease;
+
+    &:hover,
+    &:active {
+        background-color: $color-primary;
+    }
+}
+
+
+
+.button-white {
+    @extend.button;
+    margin-top: 7vw;
+    padding: 1rem 5vw;
+    border-width: 3px 3px 3px 3px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white;
+    background-color: transparent;
+
+    &:hover,
+    &:active {
+        background-color: white;
+        color: $color-base;
+    }
+}

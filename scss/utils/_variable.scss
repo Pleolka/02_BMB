@@ -1,0 +1,52 @@
+﻿//=====================
+// GLOBAL VARIABLES
+//=====================
+
+//Base
+$base-margin: 0.5vw;
+$base-padding: 0.5vw;
+$base-radius: 0;
+
+$body-bg: transparent;
+
+//Grid
+
+//Borders
+$border-weight: calc(#{0.2vw} + 3px);
+
+$thin-border: calc(#{0.2vw} + 1px);
+$middle-border: calc(#{0.2vw} + 2px);
+$big-border: calc(#{0.2vw} + 3px);
+
+// Colors
+$color-primary: rgb(255, 118, 26);
+$color-secondary: darkred;
+$color-font: black;
+
+$color-base: rgb(88, 88, 91);
+$color-base-light: lighten($color-base, 60%);
+$color-base-dark: darken($color-base, 60%);
+
+// Fonts
+$font-main: 'Raleway',
+sans-serif;
+
+$font-header: 'Coda',
+cursive;
+
+$font-special: 'Yanone Kaffeesatz',
+sans-serif;
+
+$font-size: calc(#{0.2vw} + 12px);
+$font-size-headers: calc(#{0.6vw} + 8px);
+
+// Global z-index
+
+
+//==========================
+// COMPONENT VARIABLES
+//==========================
+
+// Header
+
+// Buttons

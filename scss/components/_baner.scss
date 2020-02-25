@@ -1,0 +1,63 @@
+﻿.v-baner {
+    height: 90vh;
+    margin-top: -66 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+
+    video {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+}
+
+.header-overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    background: #b44e0a;
+    opacity: 0.75;
+}
+
+.header-content {
+    z-index: 2;
+    text-align: center;
+
+    h5 {
+        line-height: 1.5;
+        font-size: calc(#{$font-size-headers} * 2.5);
+    }
+}
+
+.baner-card {
+    div {
+        margin: 0 2vw;
+
+        i {
+            margin-top: 7vh;
+            margin-bottom: 2vh;
+            font-weight: 700;
+            font-size: calc(#{$font-size-headers} * 4);
+            color: white;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: calc(#{$font-size} * 1.1)
+        }
+    }
+}
