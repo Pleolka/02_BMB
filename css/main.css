@@ -20,316 +20,325 @@
 .flex8 {
     display: grid;
 }*/
-.flex, .flex2, .flex2-2, .flex3-2-1, .flex3-1, .flex4-2-1, .flex4-2-2, .flex4-4-2, .flex5, .flex5-3-2, .flex6, .flex8 {
+.flex,
+.flex2,
+.flex2-2,
+.flex3-2-1,
+.flex3-1,
+.flex4-2-1,
+.flex4-2-2,
+.flex4-4-2,
+.flex5,
+.flex5-3-2,
+.flex6,
+.flex8 {
   display: -ms-grid;
   display: grid;
 }
 
 @media (max-width: 575px) {
   .flex2 {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex2 {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex3-2-1 {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-2-1 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-2-1 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-2-1 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex3-1 {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-1 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-1 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-1 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-2-1 {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-2-1 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-2-1 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-2-1 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-2-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-2-2 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-2-2 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-4-2 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-4-2 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-4-2 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-4-2 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex5 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex5 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex5 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex5 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex5-3-2 {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex5-3-2 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex5-3-2 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex5-3-2 {
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
+
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex6 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex6 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex6 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex6 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex8 {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex8 {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex8 {
-    -ms-grid-columns: (1fr)[6];
-        grid-template-columns: repeat(6, 1fr);
+
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex8 {
-    -ms-grid-columns: (1fr)[8];
-        grid-template-columns: repeat(8, 1fr);
+
+    grid-template-columns: repeat(8, 1fr);
   }
 }
 
@@ -404,15 +413,15 @@ ul {
   display: block;
   list-style-type: none;
   -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-start: 0;
   -webkit-margin-after: 0;
-          margin-block-end: 0;
+  margin-block-end: 0;
   -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
+  margin-inline-start: 0px;
   -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+  margin-inline-end: 0px;
   -webkit-padding-start: 0px;
-          padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 li {
@@ -505,13 +514,20 @@ nav div ul.nav.navbar-nav a.nav-link {
   font-weight: 700;
   font-size: calc(calc(0.2vw + 12px) * 1.1);
   color: white;
-  -webkit-transition: color 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: color 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: color 250ms ease-in-out, transform 150ms ease;
-  transition: color 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+  -webkit-transition: color 250ms ease-in-out,
+    -webkit-transform 150ms ease;
+  transition: color 250ms ease-in-out,
+    -webkit-transform 150ms ease;
+  transition: color 250ms ease-in-out,
+    transform 150ms ease;
+  transition: color 250ms ease-in-out,
+    transform 150ms ease,
+    -webkit-transform 150ms ease;
 }
 
-nav div ul.nav.navbar-nav a.nav-link:hover, nav div ul.nav.navbar-nav a.nav-link:focus, nav div ul.nav.navbar-nav a.nav-link:active {
+nav div ul.nav.navbar-nav a.nav-link:hover,
+nav div ul.nav.navbar-nav a.nav-link:focus,
+nav div ul.nav.navbar-nav a.nav-link:active {
   color: #ff761a !important;
 }
 
@@ -538,6 +554,7 @@ nav div ul.nav.navbar-nav a.nav-link.active {
     top: -50px;
     width: 100%;
   }
+
   .logo img {
     max-height: 90px;
     width: 100%;
@@ -549,7 +566,8 @@ nav div ul.nav.navbar-nav a.nav-link.active {
     header
     navigation
 */
-.button, .button-white {
+.button,
+.button-white {
   display: inline-block;
   padding: 1rem 2rem;
   margin: 2rem 0 0 0;
@@ -573,7 +591,10 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   -o-transition: all 250ms ease-in-out, transform 300ms ease;
 }
 
-.button:hover, .button-white:hover, .button:active, .button-white:active {
+.button:hover,
+.button-white:hover,
+.button:active,
+.button-white:active {
   background-color: #ff761a;
 }
 
@@ -593,11 +614,13 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   background-color: transparent;
 }
 
-.button-white:hover, .button-white:active {
+.button-white:hover,
+.button-white:active {
   background-color: white;
 }
 
-.button-white:hover a, .button-white:active a {
+.button-white:hover a,
+.button-white:active a {
   color: #58585b;
 }
 
@@ -608,11 +631,11 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #fff;
   background: #b44e0a;
   opacity: 0.85;
@@ -638,9 +661,9 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   min-height: 100%;
   min-width: 100%;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .header-content {
@@ -683,14 +706,60 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   font-size: calc(calc(0.2vw + 12px) * 1.1);
 }
 
-.section .card, .section-white .card, .section-orange .card, .section-gray .card, .section .card-color1, .section-white .card-color1, .section-orange .card-color1, .section-gray .card-color1, .section .card-color2, .section-white .card-color2, .section-orange .card-color2, .section-gray .card-color2, .section .card-color3, .section-white .card-color3, .section-orange .card-color3, .section-gray .card-color3, .section .card-color4, .section-white .card-color4, .section-orange .card-color4, .section-gray .card-color4, .section .card-color5, .section-white .card-color5, .section-orange .card-color5, .section-gray .card-color5 {
+.section .card,
+.section-white .card,
+.section-orange .card,
+.section-gray .card,
+.section .card-color1,
+.section-white .card-color1,
+.section-orange .card-color1,
+.section-gray .card-color1,
+.section .card-color2,
+.section-white .card-color2,
+.section-orange .card-color2,
+.section-gray .card-color2,
+.section .card-color3,
+.section-white .card-color3,
+.section-orange .card-color3,
+.section-gray .card-color3,
+.section .card-color4,
+.section-white .card-color4,
+.section-orange .card-color4,
+.section-gray .card-color4,
+.section .card-color5,
+.section-white .card-color5,
+.section-orange .card-color5,
+.section-gray .card-color5 {
   min-height: 300px;
   text-align: left;
   position: relative;
   display: block;
 }
 
-.section .card h6, .section-white .card h6, .section-orange .card h6, .section-gray .card h6, .section .card-color1 h6, .section-white .card-color1 h6, .section-orange .card-color1 h6, .section-gray .card-color1 h6, .section .card-color2 h6, .section-white .card-color2 h6, .section-orange .card-color2 h6, .section-gray .card-color2 h6, .section .card-color3 h6, .section-white .card-color3 h6, .section-orange .card-color3 h6, .section-gray .card-color3 h6, .section .card-color4 h6, .section-white .card-color4 h6, .section-orange .card-color4 h6, .section-gray .card-color4 h6, .section .card-color5 h6, .section-white .card-color5 h6, .section-orange .card-color5 h6, .section-gray .card-color5 h6,
+.section .card h6,
+.section-white .card h6,
+.section-orange .card h6,
+.section-gray .card h6,
+.section .card-color1 h6,
+.section-white .card-color1 h6,
+.section-orange .card-color1 h6,
+.section-gray .card-color1 h6,
+.section .card-color2 h6,
+.section-white .card-color2 h6,
+.section-orange .card-color2 h6,
+.section-gray .card-color2 h6,
+.section .card-color3 h6,
+.section-white .card-color3 h6,
+.section-orange .card-color3 h6,
+.section-gray .card-color3 h6,
+.section .card-color4 h6,
+.section-white .card-color4 h6,
+.section-orange .card-color4 h6,
+.section-gray .card-color4 h6,
+.section .card-color5 h6,
+.section-white .card-color5 h6,
+.section-orange .card-color5 h6,
+.section-gray .card-color5 h6,
 .section .card p,
 .section-white .card p,
 .section-orange .card p,
@@ -722,7 +791,30 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   position: relative;
 }
 
-.section .card h6, .section-white .card h6, .section-orange .card h6, .section-gray .card h6, .section .card-color1 h6, .section-white .card-color1 h6, .section-orange .card-color1 h6, .section-gray .card-color1 h6, .section .card-color2 h6, .section-white .card-color2 h6, .section-orange .card-color2 h6, .section-gray .card-color2 h6, .section .card-color3 h6, .section-white .card-color3 h6, .section-orange .card-color3 h6, .section-gray .card-color3 h6, .section .card-color4 h6, .section-white .card-color4 h6, .section-orange .card-color4 h6, .section-gray .card-color4 h6, .section .card-color5 h6, .section-white .card-color5 h6, .section-orange .card-color5 h6, .section-gray .card-color5 h6 {
+.section .card h6,
+.section-white .card h6,
+.section-orange .card h6,
+.section-gray .card h6,
+.section .card-color1 h6,
+.section-white .card-color1 h6,
+.section-orange .card-color1 h6,
+.section-gray .card-color1 h6,
+.section .card-color2 h6,
+.section-white .card-color2 h6,
+.section-orange .card-color2 h6,
+.section-gray .card-color2 h6,
+.section .card-color3 h6,
+.section-white .card-color3 h6,
+.section-orange .card-color3 h6,
+.section-gray .card-color3 h6,
+.section .card-color4 h6,
+.section-white .card-color4 h6,
+.section-orange .card-color4 h6,
+.section-gray .card-color4 h6,
+.section .card-color5 h6,
+.section-white .card-color5 h6,
+.section-orange .card-color5 h6,
+.section-gray .card-color5 h6 {
   font-weight: 800;
 }
 
@@ -765,13 +857,18 @@ nav div ul.nav.navbar-nav a.nav-link.active {
     panels
     slideshow
 */
-.section, .section-white, .section-orange,
+.section,
+.section-white,
+.section-orange,
 .section-gray {
   position: relative;
   text-align: center;
 }
 
-.section h6, .section-white h6, .section-orange h6, .section-gray h6,
+.section h6,
+.section-white h6,
+.section-orange h6,
+.section-gray h6,
 .section h5,
 .section-white h5,
 .section-orange h5,
@@ -779,21 +876,33 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   line-height: 1.2;
 }
 
-.section hr, .section-white hr, .section-orange hr, .section-gray hr {
+.section hr,
+.section-white hr,
+.section-orange hr,
+.section-gray hr {
   border-bottom-style: solid;
   border-bottom-width: calc(0.2vw + 2px);
   margin: 1rem 30%;
 }
 
-.section h6, .section-white h6, .section-orange h6, .section-gray h6 {
+.section h6,
+.section-white h6,
+.section-orange h6,
+.section-gray h6 {
   font-weight: 500;
 }
 
-.section p, .section-white p, .section-orange p, .section-gray p {
+.section p,
+.section-white p,
+.section-orange p,
+.section-gray p {
   text-align: justify;
 }
 
-.section div.flex2, .section-white div.flex2, .section-orange div.flex2, .section-gray div.flex2 {
+.section div.flex2,
+.section-white div.flex2,
+.section-orange div.flex2,
+.section-gray div.flex2 {
   grid-gap: 3vw;
 }
 
@@ -861,12 +970,12 @@ nav div ul.nav.navbar-nav a.nav-link.active {
   height: 400px;
   width: 100%;
   -ms-touch-action: pan-x pan-y;
-      touch-action: pan-x pan-y;
+  touch-action: pan-x pan-y;
   cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
   -webkit-filter: gray;
-          filter: gray;
+  filter: gray;
 }
 
 .section-white h4 {
@@ -883,8 +992,8 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section-white .flex2-2 {
   text-align: left;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 5rem;
 }
 
