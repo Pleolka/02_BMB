@@ -1,0 +1,58 @@
+.section .card {
+    min-height: 300px;
+    text-align: left;
+    position: relative;
+    display: block;
+
+    h6,
+    p {
+        color: white !important;
+        margin: 2rem;
+        text-align: left;
+        z-index: 20;
+        position: relative;
+    }
+
+    h6 {
+        font-weight: 800;
+    }
+}
+
+.card-color1 {
+    @extend .card;
+    background-color: darken($color-primary, 10%);
+}
+
+.card-color2 {
+    @extend .card;
+    background-color: darken($color-primary, 12%);
+
+    &:after {
+        content: "";
+        background-image: url(/images/1.jpg);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.card-color3 {
+    @extend .card;
+    background-color: darken($color-primary, 5%);
+}
+
+.card-color4 {
+    @extend .card;
+    background-color: lighten($color-primary, 5%);
+}
+
+.card-color5 {
+    @extend .card;
+    background-color: darken($color-primary, 0%);
+}

@@ -11,7 +11,7 @@ $wide: 1320px;
 
 //FLEX CARDS:
 
-.flex1,
+/*.flex1,
 .flex2,
 .flex3-2-1,
 .flex3-1,
@@ -23,9 +23,14 @@ $wide: 1320px;
 .flex6,
 .flex8 {
     display: grid;
+}*/
+
+.flex {
+    display: grid;
 }
 
 .flex2 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(1, 1fr);
@@ -44,7 +49,28 @@ $wide: 1320px;
     }
 }
 
+.flex2-2 {
+    @extend .flex;
+
+    @include breakpoint($mobile) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint($tablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint($desktop) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint($wide) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .flex3-2-1 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(1, 1fr);
@@ -64,6 +90,7 @@ $wide: 1320px;
 }
 
 .flex3-1 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(1, 1fr);
@@ -83,6 +110,7 @@ $wide: 1320px;
 }
 
 .flex4-2-1 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(1, 1fr);
@@ -102,6 +130,7 @@ $wide: 1320px;
 }
 
 .flex4-2-2 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(2, 1fr);
@@ -121,6 +150,7 @@ $wide: 1320px;
 }
 
 .flex4-4-2 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(2, 1fr);
@@ -140,6 +170,7 @@ $wide: 1320px;
 }
 
 .flex5 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(2, 1fr);
@@ -159,6 +190,7 @@ $wide: 1320px;
 }
 
 .flex5-3-2 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(3, 1fr);
@@ -178,13 +210,14 @@ $wide: 1320px;
 }
 
 .flex6 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     @include breakpoint($tablet) {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     @include breakpoint($desktop) {
@@ -197,6 +230,7 @@ $wide: 1320px;
 }
 
 .flex8 {
+    @extend .flex;
 
     @include breakpoint($mobile) {
         grid-template-columns: repeat(2, 1fr);

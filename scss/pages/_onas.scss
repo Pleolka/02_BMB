@@ -1,1 +1,89 @@
-﻿
+﻿.section {
+    position: relative;
+    text-align: center;
+
+    h6,
+    h5 {
+        line-height: 1.2;
+    }
+
+    hr {
+        border-bottom-style: solid;
+        border-bottom-width: $middle-border;
+        margin: 1rem 30%;
+    }
+
+    h6 {
+        font-weight: 500;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    div.flex2 {
+        grid-gap: 3vw;
+    }
+}
+
+.section-white {
+    @extend .section;
+    background-color: white;
+
+    h5,
+    h6 {
+        color: $color-base;
+    }
+
+    hr {
+        border-color: $color-primary;
+    }
+}
+
+.section-orange,
+.section-gray {
+    @extend .section;
+
+    h6,
+    h5 {
+        color: white;
+    }
+}
+
+.section-orange {
+    @extend .section;
+    background-color: $color-primary;
+
+    hr {
+        border-color: $color-base;
+    }
+}
+
+.section-gray {
+    @extend .section;
+    background-color: $color-base;
+    padding-bottom: 5rem;
+    min-height: 100vh;
+
+    @include breakpoint($mobile) {
+        padding: 0;
+    }
+
+    hr {
+        border-color: $color-primary;
+    }
+}
+
+.cennik {
+    height: 100vh;
+    background-image: url(/images/CENNIK-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5rem;
+
+    @include breakpoint($mobile) {
+        margin: 0;
+        min-height: 80vh;
+    }
+}

@@ -20,205 +20,67 @@
 
 // BORDERS
 
-@mixin border-left ($color,$type, $weight) {
+@mixin border-left ($color, $type, $weight) {
     border-left-color: $color;
     border-left-style: $type;
     border-left-width: $weight;
 }
 
-@mixin border-right ($color,$type, $weight) {
+@mixin border-right ($color, $type, $weight) {
     border-right-color: $color;
     border-right-style: $type;
     border-right-width: $weight;
 }
 
-@mixin border-bottom ($color,$type, $weight) {
+@mixin border-bottom ($color, $type, $weight) {
     border-bottom-color: $color;
     border-bottom-style: $type;
     border-bottom-width: $weight;
 }
 
-@mixin border-top ($color,$type, $weight) {
+@mixin border-top ($color, $type, $weight) {
     border-top-color: $color;
     border-top-style: $type;
     border-top-width: $weight;
 }
 
-@mixin p-h ($left,$right) {
+@mixin p-h ($left, $right) {
     padding-left: $left;
     padding-right: $right;
 }
 
-@mixin p-v ($top,$bottom) {
+@mixin p-v ($top, $bottom) {
     padding-top: $top;
     padding-bottom: $bottom;
 }
 
 @mixin gradient-red {
-    background: rgb(23,0,0);
-    background: linear-gradient(90deg, rgba(23,0,0,1) 0%, rgba(204,31,31,1) 38%, rgba(255,142,108,1) 100%);
+    background: rgb(23, 0, 0);
+    background: linear-gradient(90deg, rgba(23, 0, 0, 1) 0%, rgba(204, 31, 31, 1) 38%, rgba(255, 142, 108, 1) 100%);
 }
 
 @mixin bg-gradient-lightgray {
-    background: rgb(23,0,0);
-    background: linear-gradient(90deg, rgba(250,251,252,1) 0%, rgba(241,242,243,1) 50%, rgba(250,251,252,1) 100%);
+    background: rgb(23, 0, 0);
+    background: linear-gradient(90deg, rgba(250, 251, 252, 1) 0%, rgba(241, 242, 243, 1) 50%, rgba(250, 251, 252, 1) 100%);
 }
 
+@mixin clearfix() {
 
-
-//FLEXIBLE CARD DECK - działa zawsze
-/*
-.flex1, .flex2, .flex3, .flex4, .flex5, .flex6, .flex8 {
-    display: grid;
-}
-
-@media (min-width: 0) {
-    .flex1 {
-        grid-template-columns: repeat(1, 1fr);
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
     }
 
-    .flex2 {
-        grid-template-columns: repeat(1, 1fr);
+    &:after {
+        display: block;
+        clear: both;
+        height: 1px;
+        margin-top: -1px;
+        visibility: hidden;
     }
 
-    .flex3 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex4 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex5 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex6 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex8 {
-        grid-template-columns: repeat(2, 1fr);
+    & {
+        *zoom: 1;
     }
 }
-
-@media (min-width: 576px) {
-    .flex1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex3 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex4 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex5 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex6 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .flex8 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media (min-width: 768px) {
-    .flex1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex3 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex4 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex5 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex6 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .flex8 {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
-
-@media (min-width: 992px) {
-    .flex1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex2 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex3 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .flex4 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .flex5 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .flex6 {
-        grid-template-columns: repeat(6, 1fr);
-    }
-
-    .flex8 {
-        grid-template-columns: repeat(8, 1fr);
-    }
-}
-
-@media (min-width: 1200px) {
-    .flex1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .flex2 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .flex3 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .flex4 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .flex5 {
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .flex6 {
-        grid-template-columns: repeat(6, 1fr);
-    }
-
-    .flex8 {
-        grid-template-columns: repeat(8, 1fr);
-    }
-}
-*/

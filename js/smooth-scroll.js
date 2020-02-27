@@ -27,7 +27,7 @@
 	var defaults = {
 
 		// Selectors
-		ignore: 'navbar',
+		ignore: 'nawigacja',
 		header: null,
 		topOnEmptyHash: true,
 
@@ -37,7 +37,7 @@
 		durationMax: null,
 		durationMin: null,
 		clip: true,
-		offset: 66,
+		offset: 50,
 
 		// Easing
 		easing: 'easeInOutCubic',

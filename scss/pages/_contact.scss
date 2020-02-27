@@ -1,1 +1,26 @@
-﻿
+﻿.map {
+    height: 400px; // The height is 400 pixels
+    width: 100%; // The width is the width of the web page
+    touch-action: pan-x pan-y;
+    cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.section-white {
+    h4 {
+        color: $color-base;
+        font-size: calc(#{$font-size} * 1.7);
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .flex2 {
+        grid-column-gap: 15vw !important;
+    }
+
+    .flex2-2 {
+        text-align: left;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }

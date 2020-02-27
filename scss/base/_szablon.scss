@@ -79,7 +79,6 @@ a {
     }
 }
 
-
 .scroll-adjust {
     padding-top: 150px;
     margin-top: -150px;
@@ -105,5 +104,23 @@ a {
 
     @include breakpoint ($wide) {
         display: normal;
+    }
+}
+
+.mobile-only {
+    @include breakpoint ($mobile) {
+        display: normal;
+    }
+
+    @include breakpoint ($tablet) {
+        display: none;
+    }
+
+    @include breakpoint ($desktop) {
+        display: none;
+    }
+
+    @include breakpoint ($wide) {
+        display: none;
     }
 }
