@@ -50,36 +50,42 @@
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -92,18 +98,21 @@
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-2-1 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-2-1 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-2-1 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -116,18 +125,21 @@
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-1 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-1 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-1 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -140,6 +152,7 @@
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-2-1 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -158,12 +171,14 @@
 
 @media (max-width: 575px) {
   .flex4-2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-2-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -182,6 +197,7 @@
 
 @media (max-width: 575px) {
   .flex4-4-2 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -206,12 +222,14 @@
 
 @media (max-width: 575px) {
   .flex5 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex5 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -230,6 +248,7 @@
 
 @media (max-width: 575px) {
   .flex5-3-2 {
+
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -254,6 +273,7 @@
 
 @media (max-width: 575px) {
   .flex6 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -278,6 +298,7 @@
 
 @media (max-width: 575px) {
   .flex8 {
+
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -457,6 +478,31 @@ a:hover {
   .mobile-only {
     display: none;
   }
+}
+
+.logo-mono {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  max-height: 10vh;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+.foot {
+  opacity: 0.5;
+  padding: 3rem 0;
+}
+
+.foot p {
+  text-align: center !important;
+}
+
+.foot a {
+  color: white;
+}
+
+footer.footer {
+  padding: 0;
 }
 
 /*
@@ -668,26 +714,32 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section-white .card,
 .section-orange .card,
 .section-gray .card,
+.footer .card,
 .section .card-color1,
 .section-white .card-color1,
 .section-orange .card-color1,
 .section-gray .card-color1,
+.footer .card-color1,
 .section .card-color2,
 .section-white .card-color2,
 .section-orange .card-color2,
 .section-gray .card-color2,
+.footer .card-color2,
 .section .card-color3,
 .section-white .card-color3,
 .section-orange .card-color3,
 .section-gray .card-color3,
+.footer .card-color3,
 .section .card-color4,
 .section-white .card-color4,
 .section-orange .card-color4,
 .section-gray .card-color4,
+.footer .card-color4,
 .section .card-color5,
 .section-white .card-color5,
 .section-orange .card-color5,
-.section-gray .card-color5 {
+.section-gray .card-color5,
+.footer .card-color5 {
   min-height: 300px;
   text-align: left;
   position: relative;
@@ -698,50 +750,62 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section-white .card h6,
 .section-orange .card h6,
 .section-gray .card h6,
+.footer .card h6,
 .section .card-color1 h6,
 .section-white .card-color1 h6,
 .section-orange .card-color1 h6,
 .section-gray .card-color1 h6,
+.footer .card-color1 h6,
 .section .card-color2 h6,
 .section-white .card-color2 h6,
 .section-orange .card-color2 h6,
 .section-gray .card-color2 h6,
+.footer .card-color2 h6,
 .section .card-color3 h6,
 .section-white .card-color3 h6,
 .section-orange .card-color3 h6,
 .section-gray .card-color3 h6,
+.footer .card-color3 h6,
 .section .card-color4 h6,
 .section-white .card-color4 h6,
 .section-orange .card-color4 h6,
 .section-gray .card-color4 h6,
+.footer .card-color4 h6,
 .section .card-color5 h6,
 .section-white .card-color5 h6,
 .section-orange .card-color5 h6,
 .section-gray .card-color5 h6,
+.footer .card-color5 h6,
 .section .card p,
 .section-white .card p,
 .section-orange .card p,
 .section-gray .card p,
+.footer .card p,
 .section .card-color1 p,
 .section-white .card-color1 p,
 .section-orange .card-color1 p,
 .section-gray .card-color1 p,
+.footer .card-color1 p,
 .section .card-color2 p,
 .section-white .card-color2 p,
 .section-orange .card-color2 p,
 .section-gray .card-color2 p,
+.footer .card-color2 p,
 .section .card-color3 p,
 .section-white .card-color3 p,
 .section-orange .card-color3 p,
 .section-gray .card-color3 p,
+.footer .card-color3 p,
 .section .card-color4 p,
 .section-white .card-color4 p,
 .section-orange .card-color4 p,
 .section-gray .card-color4 p,
+.footer .card-color4 p,
 .section .card-color5 p,
 .section-white .card-color5 p,
 .section-orange .card-color5 p,
-.section-gray .card-color5 p {
+.section-gray .card-color5 p,
+.footer .card-color5 p {
   color: white !important;
   margin: 2rem;
   text-align: left;
@@ -753,26 +817,32 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section-white .card h6,
 .section-orange .card h6,
 .section-gray .card h6,
+.footer .card h6,
 .section .card-color1 h6,
 .section-white .card-color1 h6,
 .section-orange .card-color1 h6,
 .section-gray .card-color1 h6,
+.footer .card-color1 h6,
 .section .card-color2 h6,
 .section-white .card-color2 h6,
 .section-orange .card-color2 h6,
 .section-gray .card-color2 h6,
+.footer .card-color2 h6,
 .section .card-color3 h6,
 .section-white .card-color3 h6,
 .section-orange .card-color3 h6,
 .section-gray .card-color3 h6,
+.footer .card-color3 h6,
 .section .card-color4 h6,
 .section-white .card-color4 h6,
 .section-orange .card-color4 h6,
 .section-gray .card-color4 h6,
+.footer .card-color4 h6,
 .section .card-color5 h6,
 .section-white .card-color5 h6,
 .section-orange .card-color5 h6,
-.section-gray .card-color5 h6 {
+.section-gray .card-color5 h6,
+.footer .card-color5 h6 {
   font-weight: 800;
 }
 
@@ -818,7 +888,8 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section,
 .section-white,
 .section-orange,
-.section-gray {
+.section-gray,
+.footer {
   position: relative;
   text-align: center;
 }
@@ -827,40 +898,47 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 .section-white h6,
 .section-orange h6,
 .section-gray h6,
+.footer h6,
 .section h5,
 .section-white h5,
 .section-orange h5,
-.section-gray h5 {
+.section-gray h5,
+.footer h5 {
   line-height: 1.2;
 }
 
 .section hr,
 .section-white hr,
 .section-orange hr,
-.section-gray hr {
+.section-gray hr,
+.footer hr {
   border-bottom-style: solid;
   border-bottom-width: calc(0.2vw + 2px);
+  border-top-width: 0;
   margin: 1rem 30%;
 }
 
 .section h6,
 .section-white h6,
 .section-orange h6,
-.section-gray h6 {
+.section-gray h6,
+.footer h6 {
   font-weight: 500;
 }
 
 .section p,
 .section-white p,
 .section-orange p,
-.section-gray p {
+.section-gray p,
+.footer p {
   text-align: justify;
 }
 
 .section div.flex2,
 .section-white div.flex2,
 .section-orange div.flex2,
-.section-gray div.flex2 {
+.section-gray div.flex2,
+.footer div.flex2 {
   grid-gap: 3vw;
 }
 
@@ -922,6 +1000,39 @@ nav div ul.nav.navbar-nav a.nav-link.active {
     margin: 0;
     min-height: 80vh;
   }
+}
+
+.footer {
+  background-color: #505053;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 575px) {
+  .footer {
+    padding: 0;
+  }
+}
+
+.footer hr {
+  border-color: #8b8b8e;
+  border-bottom-width: 1px;
+  margin: 2rem 0;
+}
+
+.footer h5 {
+  margin-top: 5vh;
+  color: white;
+  font-weight: 700;
+  font-size: calc(calc(0.2vw + 12px) * 1.5);
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .flex3-2-1 {
+  -webkit-column-gap: 3rem;
+  column-gap: 3rem;
 }
 
 .map {

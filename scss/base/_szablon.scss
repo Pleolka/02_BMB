@@ -124,3 +124,29 @@ a {
         display: none;
     }
 }
+
+.logo-mono {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    max-height: 10vh;
+    justify-self: center;
+}
+
+.foot {
+    opacity: 0.5;
+
+    p {
+        text-align: center !important;
+    }
+
+    a {
+        color: white;
+    }
+
+    padding: 3rem 0;
+
+}
+
+footer.footer {
+    padding: 0;
+}
