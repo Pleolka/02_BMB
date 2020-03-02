@@ -38,14 +38,12 @@
 
 @media (max-width: 575px) {
   .flex2 {
-
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex2 {
-
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -58,126 +56,108 @@
 
 @media (min-width: 1320px) {
   .flex2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex2-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex2-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex2-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex2-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex3-2-1 {
-
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-2-1 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-2-1 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-2-1 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex3-1 {
-
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex3-1 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex3-1 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex3-1 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-2-1 {
-
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-2-1 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-2-1 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-2-1 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-2-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -190,154 +170,132 @@
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-2-2 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-2-2 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex4-4-2 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex4-4-2 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex4-4-2 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex4-4-2 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex5 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex5 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex5 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex5 {
-
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex5-3-2 {
-
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex5-3-2 {
-
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex5-3-2 {
-
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex5-3-2 {
-
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex6 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex6 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex6 {
-
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex6 {
-
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 575px) {
   .flex8 {
-
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 576px) and (max-width: 979px) {
   .flex8 {
-
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (min-width: 980px) and (max-width: 1319px) {
   .flex8 {
-
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 1320px) {
   .flex8 {
-
     grid-template-columns: repeat(8, 1fr);
   }
 }
@@ -952,7 +910,7 @@ nav div ul.nav.navbar-nav a.nav-link.active {
 
 .cennik {
   height: 100vh;
-  background-image: url(/images/CENNIK-01.png);
+  background-image: url(../images/CENNIK-01.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
